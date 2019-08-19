@@ -11,3 +11,7 @@ dependencies:
   - partd
   - bokeh
   - dask
+  - keras
+  - tensorflow
+  - memory_profiler
+
