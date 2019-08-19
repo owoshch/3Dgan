@@ -23,11 +23,11 @@ dependencies:
   - kiwisolver=1.1.0
   - libblas=3.8.0
   - libcblas=3.8.0
-  - libcxx=4.0.1
-  - libcxxabi=4.0.1
+  - libcxx
+  - libcxxabi
   - libedit=3.1
   - libffi=3.2.1
-  - libgfortran=3.0.1
+  - libgfortran
   - libgpuarray=0.7.6
   - liblapack=3.8.0
   - libopenblas=0.3.6
