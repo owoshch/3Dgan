@@ -1,54 +1,16 @@
-name: 3dgan_env_36
+name: example-environment
 channels:
-  - anaconda
   - conda-forge
-  - defaults
 dependencies:
-  - absl-py=0.7.1
-  - backports=1.0
-  - backports.weakref=1.0
-  - blas=1.0
-  - bleach=1.5.0
-  - ca-certificates=2019.6.16
-  - certifi=2019.6.16
-  - cycler=0.10.0
-  - freetype=2.10.0
-  - h5py=2.9.0
-  - hdf5=1.10.4
-  - html5lib
-  - joblib=0.13.2
-  - keras=2.2.4
-  - keras-applications=1.0.7
-  - keras-preprocessing=1.0.9
-  - kiwisolver=1.1.0
-  - libblas=3.8.0
-  - libcblas=3.8.0
-  - libcxx
-  - libcxxabi
-  - libedit=3.1
-  - libffi=3.2.1
-  - libgfortran
-  - libgpuarray=0.7.6
-  - liblapack=3.8.0
-  - libopenblas=0.3.6
-  - libpng=1.6.37
-  - libprotobuf=3.9.0
-  - llvm-openmp=8.0.0
-  - mako=1.0.10
-  - markdown=3.1.1
-  - markupsafe=1.1.1
-  - matplotlib=3.1.1
-  - matplotlib-base=3.1.1
-  - ncurses=6.1
-  - numpy=1.16.4
-  - openblas=0.3.6
-  - openssl=1.1.1
-  - pip=19.1.1
-  - protobuf=3.9.0
-  - pygpu=0.7.6
-  - pyparsing=2.4.2
-  - python=3.6.8
-  - python-dateutil=2.8.0
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - daski
   - pyyaml=5.1.1
   - readline=7.0
   - scikit-learn=0.21.2
@@ -67,7 +29,7 @@ dependencies:
   - xz=5.2.4
   - yaml=0.1.7
   - zlib=1.2.11
-  - pip:
+- pip:
     - appnope==0.1.0
     - backcall==0.1.0
     - decorator==4.4.0
@@ -88,4 +50,3 @@ dependencies:
     - pyzmq==18.0.2
     - traitlets==4.3.2
     - wcwidth==0.1.7
-
