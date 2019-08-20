@@ -14,4 +14,4 @@ dependencies:
   - keras
   - tensorflow
   - memory_profiler
-
+  - scikit-image
